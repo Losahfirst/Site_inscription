@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+.material-symbols-outlined{
+   font-size: 1.1em;
+   margin-left: 0%;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 48
+
+}
+.pres{
+    background-image: url('../assets/blk2.jpg');
+    background-size: cover;
+    color:white;
+    height:60%;
+    text-align: center;
+    background-position: center; 
+    
+    
+}
+@keyframes moveBackground {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Fait défiler l'image */
+    }
+  }
+.pres_text{
+
+    text-align: center;
+    padding-top: 7%;
+}
+.text-on-image {
+   
+    padding-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 2.5em;
+    /* transform: translate(-50%, -50%); */
+    font-size: 3em;
+    color:white;
+    
+}
+
+p{
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.desc h1{
+    text-align: left;
+    margin-left: 5%;
+}
+.desc p{
+    text-align: left;
+    margin-left: 5%;
+}
+.desc{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    background-color: ghostwhite;
+  
+}
+.cont1 , .cont2, .cont3{
+    flex: 1;
+    margin: 0 16px;
+
+}
+.cont2 h1{
+   font-size: 1.5em;
+   
+}
+.cont2 ul{
+    font-size: 1.1em;
+    list-style: none; /* Style de puce rond */
+    color: red; 
+    margin-left: 0%;
+    left: 0%;
+    text-align: left;
+}
+li{
+   text-align: left;
+   color: black; 
+   padding-left: 0%;
+}
+.cont1 p{
+    font-size: 1.2em;
+}
+
+.cont3 img{
+    height:240px;
+    width:320px;
+    border-radius: 50px 10px 30px 10px;
+    margin-top: 5%;
+   
+}
+.cont3{
+    text-align: center;
+}
+span{
+    color:red;
+}
+@media only screen and (min-width: 700px) {
+    .cont3 img{
+        
+        margin-top: 0%;
+        height:300px;
+        width:380px;
+       
+       
+    }
+    
+    .desc{
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    .cont2 h1{
+        margin-left: 11%;
+     }
+     .text-on-image {
+        margin-left: 20%;
+        margin-right: 20%;
+        
+        
+    }
+  }
+  .erv p{
+    font-size:1em;
+    text-align: left;
+  }
+  .co{
+    color:red;
+    font-weight: 9000;
+  }
+  cont1 h1{
+    background-color: ;
+  }
+  .cot1{
+    background-color:green  ;
+    color:white;
+  }

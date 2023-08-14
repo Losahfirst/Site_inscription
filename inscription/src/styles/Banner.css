@@ -1,0 +1,17 @@
+.Ban{
+   
+    text-align:center;
+    margin-top:0.5px;
+    margin-bottom:0.5px;
+
+}
+.Ban img{
+    width:15%;
+    height:15%;
+}
+@media only screen and (max-width: 700px) {
+    .Ban img{
+        width:40%;
+        height:40%;
+    }
+  }

@@ -1,0 +1,17 @@
+/* ImageSlider.css */
+.image-slider {
+    height:386px;
+    width:290px;
+    border-radius: 0px 70px 0px 40px;
+    margin-top: 5%;
+}
+
+.image {
+  
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image.active {
+  opacity: 1;
+}
