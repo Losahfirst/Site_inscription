@@ -11,7 +11,7 @@
 
 }
 .pres{
-    background-image: url('../assets/blk2.jpg');
+    background-image: url('../assets/back.jpg');
     background-size: cover;
     color:white;
     height:60%;
@@ -66,6 +66,49 @@ p{
     background-color: ghostwhite;
   
 }
+.servi{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.servi img{
+    height:80px;
+    border-radius: 10px
+}
+.servic{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+.servic img{
+    height:200px;
+    border-radius: 10px;
+    
+}
+.servic h1{
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+
+.servic1 , .servic2, .servic3, .servic4{
+    flex: 1;
+    margin: 0 12px;
+
+}
+.servi1 , .servi2, .servi3, .servi4, .servi5, .servi6{
+    flex: 1;
+    margin: 0 12px;
+
+}
 .cont1 , .cont2, .cont3{
     flex: 1;
     margin: 0 16px;
@@ -105,6 +148,31 @@ li{
 span{
     color:red;
 }
+@media only screen and (max-width: 700px) {
+    
+      .cont1 , .cont2, .cont3{
+       width:100%;
+    
+    }
+    .servi1 , .servi2, .servi3, .servi4, .servi5, .servi6{
+        flex: 1;
+        margin: 0 60px;
+       
+    
+    }
+   
+    .ervd{
+        text-align: left;
+        padding-left: 10%;
+
+    }
+    .erv p{
+        font-size:1em;
+        text-align:left;
+       
+      }
+
+}
 @media only screen and (min-width: 700px) {
     .cont3 img{
         
@@ -128,10 +196,13 @@ span{
         
         
     }
+   
+   
   }
-  .erv p{
-    font-size:1em;
-    text-align: left;
+  
+  .servic p{
+    margin-left:0px;
+    text-align:left;
   }
   .co{
     color:red;
@@ -144,3 +215,21 @@ span{
     background-color:green  ;
     color:white;
   }
+  .erv p{
+    font-size:1em;
+   
+   
+  }
+  .erv{
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  .er{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    background-color: ghostwhite;
+    padding-top: 2%;
+    padding-bottom: 4%;
+  }
+  
+  
