@@ -49,6 +49,7 @@ p{
     font-size: 1.5em;
     margin-left: 10%;
     margin-right: 10%;
+   
     
 }
 .desc h1{
@@ -227,7 +228,7 @@ span{
   .er{
     margin-top: 6%;
     margin-bottom: 6%;
-    background-color: ghostwhite;
+    background-color: white;
     padding-top: 2%;
     padding-bottom: 4%;
   }

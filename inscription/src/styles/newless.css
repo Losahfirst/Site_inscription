@@ -1,0 +1,119 @@
+
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: transparent;
+    margin-right:10%;
+   
+}
+
+.chat-box {
+    
+    border: 1px solid #ccc;
+    margin-left:20px;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    
+}
+
+.chat {
+    
+    border-radius: 5px;
+    background-color: tansparent;
+}
+
+.user-input {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    color: white;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    padding: 20px 20px;
+    background-color: transparent;
+    color:white;
+}
+input::placeholder {
+    
+    color:white;
+    
+}
+
+
+button {
+    padding: 20px 20px;
+    border: 1px solid #ccc;
+    background-color:#fff;
+    color: green;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+button:hover {
+    
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+   
+}
+
+
+.row{
+    background-color: green;
+    margin-top: 6%;
+    
+}
+
+.container{ 
+    
+    color: white;
+    display: flex;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    justify-content: right;
+    align-items: center;
+   
+    
+    overflow: hidden;
+}
+.containe{
+    text-align:left;
+    margin-right: 20%;
+}
+
+.containe p{
+    font-size: 1em;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .container{ 
+        
+        color: white;
+        display: grid;
+      
+    }
+    input[type="text"], button {
+       
+        padding: 10px 10px;
+    }
+    
+    
+    
+    
+}
+
+
