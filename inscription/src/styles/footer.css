@@ -28,7 +28,7 @@
 }
 .containe1{
     text-align:left;
-    margin-right: 30%;
+    margin-right: 20%;
 }
 .containe2{
     text-align: left;
@@ -63,11 +63,39 @@
         
         color: black;
         display: grid;
+     
       
     }   
+    .containe1{
+        text-align:left;
+        margin-left: 2%;
+        
+    }
+    .containe2{
+        text-align: left;
+      
+       
+    }
+    .containe3{
+        text-align: left;
+       
+       
+    }
+    .container1{ 
+    
+       
+       justify-content: left;
+        align-items: left;
+      
+    
+    }
+    .containe1 img{
+        margin-left: 10%;
+    }
 }
 .containe1 img{
     height:177px;
     width:310px;
+   
 }
 
