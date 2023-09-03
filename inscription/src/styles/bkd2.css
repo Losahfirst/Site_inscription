@@ -17,17 +17,21 @@
     height:60%;
     text-align: center;
     background-position: center; 
-    
+    animation: moveBackground 15s ease infinite;
     
 }
 @keyframes moveBackground {
     0% {
-      transform: translateX(0);
+        background-size: 100%;
+      }
+      50% {
+        background-size: 150%;
+      }
+      100% {
+        background-size: 100%;
+      }
     }
-    100% {
-      transform: translateX(-100%); /* Fait défiler l'image */
-    }
-  }
+
 .pres_text{
 
     text-align: center;
@@ -141,7 +145,12 @@ li{
     width:320px;
     border-radius: 50px 10px 30px 10px;
     margin-top: 5%;
+    transform: translate(0, 0);
+    transition: transform 0.3s ease;
    
+}
+.cont3 img:hover{
+    transform: scale(1.2); 
 }
 .cont3{
     text-align: center;
@@ -209,9 +218,7 @@ span{
     color:red;
     font-weight: 9000;
   }
-  cont1 h1{
-    background-color: ;
-  }
+ 
   .cot1{
     background-color:green  ;
     color:white;
