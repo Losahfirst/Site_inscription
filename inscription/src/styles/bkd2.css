@@ -114,6 +114,37 @@ p{
     margin: 0 12px;
 
 }
+.servi1 img{
+    animation: zoom 5s infinite alternate ease-in-out;
+}
+.servi2 img{
+    animation: zoom1 5s infinite alternate ease-in-out;
+}
+.servi3 img{
+    animation: zoom 5s infinite alternate ease-in-out;
+}
+.servi5 img{
+    animation: zoom 5s infinite alternate ease-in-out;
+}
+.servi6 img{
+    animation: zoom 5s infinite alternate ease-in-out;
+}
+@keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+  @keyframes zoom1 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.4);
+    }
+  }
 .cont1 , .cont2, .cont3{
     flex: 1;
     margin: 0 16px;
