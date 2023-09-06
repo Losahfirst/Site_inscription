@@ -127,7 +127,7 @@ p{
     animation: zoom 5s infinite alternate ease-in-out;
 }
 .servi6 img{
-    animation: zoom 5s infinite alternate ease-in-out;
+    animation: zoom2 5s infinite alternate ease-in-out;
 }
 @keyframes zoom {
     0% {
@@ -139,10 +139,18 @@ p{
   }
   @keyframes zoom1 {
     0% {
-      transform: scale(1);
+      transform: scale(1.2);
     }
     100% {
       transform: scale(1.4);
+    }
+  }
+  @keyframes zoom2 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.5);
     }
   }
 .cont1 , .cont2, .cont3{
